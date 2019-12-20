@@ -1,0 +1,14 @@
+.card-anime{
+    &{
+        border-radius: 6px;
+        overflow: hidden;
+        max-width: 225px;
+    }
+    & .card-content{
+        min-height: 286px;
+    }
+    & .card-row{
+        background: $dark-overlay-100;
+        
+    }
+}

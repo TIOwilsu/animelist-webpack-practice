@@ -1,0 +1,53 @@
+.card{
+    &{
+        display: block;
+    }
+    &-title{
+        display: block;
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: $black;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &-box{
+        background: $dark-overlay-200;
+        padding: 20px 15px;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &-row{
+        padding: 8px 15px;
+    }
+    &-score{
+        &{
+            font-size: 12px;
+        }
+        &-img{
+            margin-right: 2px;
+        }
+    }
+    &-episodes{
+        font-size: 12px;
+    }
+    &-synopsis{
+        font-size: 12px;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 67%;
+    }
+    &:hover &-box{
+        opacity: 1;
+    }
+}

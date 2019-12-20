@@ -1,0 +1,17 @@
+:root{
+    @each $color, $hex in $colors{
+        --#{$color}: #{$hex};
+    }
+}
+
+@each $color, $hex in $colors{
+    .color-#{$color}{
+        color: $hex !important;
+    }
+}
+
+@each $color, $hex in $colors{
+    .bg-#{$color}{
+        background-color: $hex !important;
+    }
+}
