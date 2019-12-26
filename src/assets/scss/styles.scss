@@ -1,16 +1,3 @@
-// Vendors
-@import "vendors/bootstrap";
-
-// Config
-@import "config/variables";
-
-// Global
-@import "global/typography";
-
-// Utility
-@import "utility/color";
-@import "utility/text";
-
-// Components
-@import "components/card/card";
-@import "components/card/card-anime";
+body{
+    background-color: red;
+}

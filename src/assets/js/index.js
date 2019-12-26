@@ -1,4 +1,4 @@
-import Manager from './Manager.js'
+import Controller from './components/controller/Controller.js'
 
-const sectionMyAnimesList = new Manager('animes')
+const sectionMyAnimesList = new Controller('animes')
 sectionMyAnimesList.getMyAnimeList
